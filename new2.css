@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, Helvetica, sans-serif;
+    margin: 0;
+  }
+  .t1{
+    margin:5px 5px;
+    font-size:smaller;
+  }
+  .header {
+  
+    text-align: center;
+    background:#3792cb;
+    color: white;
+    height:20vh;
+    padding: 30px 20px;
+    text-size-adjust: 20px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  .li{display: inline-block;}
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .side {
+    flex: 30%;
+    background-color: #E0E0E0;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  .main h1{
+    text-align: center;
+    background-color: #3792cb;
+    display:block;
+    height: 10vh;
+    margin: 0;
+    padding-top: 12px;
+    border-radius: 7px;
+    color: #fff;
+  
+    
+  }
+  .aboutus{
+    background-size:500px;
+    background-color: grey;
+  }
+  /*Images of all the scans */
+  .fakeimg img{
+    width: 360px;
+    height: 345px;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  /* for preview image */
+  .image-preview-container {
+      width: 50%;
+      margin: 0 auto;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 3rem;
+      border-radius: 20px;
+  }
+  
+  .image-preview-container img {
+      width: 100%;
+      display: none;
+      margin-bottom: 30px;
+  }
+  .image-preview-container input {
+      display: none;
+  }
+  
+  .image-preview-container label {
+      display: block;
+      width: 45%;
+      height: 45px;
+      margin-left: 25%;
+      text-align: center;
+      background:#31698b;
+      color: #fff;
+      font-size: 15px;
+      text-transform: Uppercase;
+      font-weight: 400;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 9px #999;
+  }
+  .image-preview-container label:hover{
+    background-color: #31698b;
+  }
+  .image-preview-container label:active{
+    background-color: #31698b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .submit label{
+      display: block;
+      width: 50%;
+      height: 45px;
+      margin-top: 3%;
+      margin-left: 25%;
+      text-align: center;
+      background:#31698b;
+      color: #fff;
+      font-size: 15px;
+      text-transform: Uppercase;
+      font-weight: 400;
+      border-radius: 7px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 9px #999;
+  }
+  .submit label:hover{  background-color: #31698b;}
+  .submit label:active{    background-color: #31698b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
+  .submit input{
+    display:none;
+  }
+  footer{
+    background-color: #3792cb;
+    height: 50px;
+    text-align: center;
+    color:white;
+    padding-top: 15px;
+  }

@@ -1,0 +1,64 @@
+<!-- this html website is a part of a machine learning training project designed to predict the diseases by just comparing the xray images of chest. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="prev.js"></script>
+<link href="new2.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+  <ul>
+  <li>
+    <h1>X-Ray Scanner</h1>
+    <p>Your Go To Aid</p>
+  </li>
+  <!-- <li>
+    <img src="img2.jpg">
+  </li> -->
+  </ul>
+</div>
+
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <img src>
+    <p>A X-ray scanning model trained for efficient and quick analysis of uploaded scans to check for various diseases including Covid-19, Tuberculousis and Pneumonia. 
+    Along with calculated probability for the occurrence of the said disease.</p>
+    <div class="fakeimg"><img src="img2.jpg"></div>
+  </div>
+  <div class="main">
+    <h1>UPLOAD</h1>
+        <div class="t1">
+        <h5>*Pls upload your image in jpg format</h5>
+        </div>
+    <div class="image-preview-container">
+      <div class="preview">
+        <img id="preview-selected-image" />
+      </div>
+    <label for="file-upload">Upload Image</label>
+    <input type="file" id="file-upload" accept="image/*" onchange="previewImage(event);" />
+    </div>
+    <div class="submit">
+      <form>
+        <label for="submitimg">Submit</label>
+        <input type="submit" id="submitimg"/>
+      </form>
+    </div>
+
+    <br>
+    <h1>RESULT</h1>
+    <div class="fakeimg" style="height:200px;">A comparison image will be displayed here.</div>
+    <p>The Probabilty is: </p>
+
+  </div>
+</div>
+<footer>
+    <p>&#169;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, saepe.</p>
+</footer>
+</body>
+</html>
